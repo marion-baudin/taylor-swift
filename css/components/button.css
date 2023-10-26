@@ -1,0 +1,28 @@
+.btn-green {
+  background-color: darkolivegreen;
+  color: whitesmoke;
+  padding: 15px 20px;
+  border-radius: 40px;
+}
+.btn-green:hover {
+  background-color: dimgrey;
+  color: white;
+}
+
+
+a {
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  color: darkolivegreen;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+a:hover {
+  color: dimgrey;
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,33 @@
+.banner {
+  /* 1. Set a background image */
+  background-image: url(https://pbs.twimg.com/media/FXEaCRTaMAEbrgL?format=jpg&name=4096x4096);   
+  /* 2. Make the background image cover the banner div */
+  background-size: cover;     
+  /* 3. Center the image */
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
